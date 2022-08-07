@@ -15,5 +15,8 @@ jobs:
 
   tests:
     name: Tests
-    - name: Run Tests
-      run: dotnet test ContinuousIntegration.Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run Tests
+        run: dotnet test ContinuousIntegration.Tests
