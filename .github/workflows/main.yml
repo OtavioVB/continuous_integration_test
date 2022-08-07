@@ -3,7 +3,7 @@ name: ASP. NET Core Continuous Integration
 on: [push]
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps: 
