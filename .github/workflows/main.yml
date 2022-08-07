@@ -1,17 +1,19 @@
-name: ASP. NET Core Continuous Integration
+name: Continuous Integration
 
 on: [push]
 
 jobs:
   build:
-
+    name: Build Project
     runs-on: ubuntu-latest
-
     steps: 
     - uses: actions/checkout@v1
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '6.0.302'
+
+  tests:
+    name: Tests
     - name: Run Tests
       run: dotnet test ContinuousIntegration.Tests
