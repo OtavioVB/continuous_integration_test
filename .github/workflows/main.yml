@@ -17,6 +17,7 @@ jobs:
     name: Domain Tests
     runs-on: ubuntu-latest
     environment: Desenvolvimento
+    needs: build
     steps:
       - uses: actions/checkout@v1
       - name: Run Tests
