@@ -12,7 +12,7 @@ namespace ContinuousIntegration.Tests
         {
             ICliente cliente = new Cliente();
             ICliente clienteTest = new FakeCliente();
-            Assert.AreEqual(cliente, clienteTest.GetCliente());
+            Assert.AreNotEqual(cliente, clienteTest.GetCliente());
         }
     }
 }
