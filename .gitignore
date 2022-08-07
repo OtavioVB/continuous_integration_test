@@ -1,0 +1,14 @@
+*.sln
+.vs
+
+ContinuousIntegration.API/bin
+ContinuousIntegration.API/obj
+ContinuousIntegration.API/Properties
+
+ContinuousIntegration.Tests/bin
+ContinuousIntegration.Tests/obj
+ContinuousIntegration.Tests/Properties
+
+ContinuousIntegration.Domain/bin
+ContinuousIntegration.Domain/obj
+ContinuousIntegration.Domain/Properties
