@@ -8,6 +8,7 @@ ContinuousIntegration.API/Properties
 ContinuousIntegration.Tests/bin
 ContinuousIntegration.Tests/obj
 ContinuousIntegration.Tests/Properties
+ContinuousIntegration.Tests/TestResults
 
 ContinuousIntegration.Domain/bin
 ContinuousIntegration.Domain/obj
